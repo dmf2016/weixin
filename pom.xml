@@ -8,6 +8,7 @@
 	<modules>
 		<module>weixin-sdk</module>
 		<module>weixin-shop</module>
+		<module>weixin-client</module>
 	</modules>
 	<build>
 		<finalName>${project.artifactId}</finalName>
