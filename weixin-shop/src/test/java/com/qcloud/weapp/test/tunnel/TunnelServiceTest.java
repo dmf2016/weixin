@@ -33,9 +33,9 @@ public class TunnelServiceTest {
 	public void setup() {
 		Configuration config = new Configuration();
 		config.setServerHost("83019736.qcloud.la");
-		config.setAuthServerUrl("http://139.199.201.190/mina_auth");
-		config.setTunnelServerUrl("http://139.199.201.190/tunnel");
-		config.setTunnelSignatureKey("5c0a9b55a23ff5c2d5a5329a77a91ebc");
+		config.setAuthServerUrl("http://139.199.201.190/mina_auth/");
+		config.setTunnelServerUrl("https://83019736.ws.qcloud.la");
+		config.setTunnelSignatureKey("7494a6b23c3d7a7a611fc0d24e69f68a");
 		config.setNetworkTimeout(1000);
 		try {
 			ConfigurationManager.setup(config);
