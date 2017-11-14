@@ -37,15 +37,4 @@
 			<artifactId>commons-fileupload</artifactId>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
-					<version>2.5</version>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>
