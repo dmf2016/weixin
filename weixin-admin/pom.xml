@@ -10,25 +10,11 @@
 	<artifactId>weixin-admin</artifactId>
 	<packaging>pom</packaging>
 	<modules>
-		<module>weixin-admin-pojo</module>
-		<module>weixin-admin-mapper</module>
-		<module>weixin-admin-service</module>
-		<module>weixin-web-api</module>
+		<module>weixin-admin-product</module>
+		<module>weixin-admin-rest</module>
+		<module>weixin-admin-web</module>
+		<module>weixin-admin-common</module>
 	</modules>
 	<build>
-		<!-- 配置插件 -->
-		<plugins>
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<configuration>
-					<port>8080</port>
-					<path>/</path>
-					<url>http://127.0.0.1:8080/manager/text</url>
-					<username>admin</username>
-					<password>admin</password>
-				</configuration>
-			</plugin>
-		</plugins>
 	</build>
 </project>

@@ -1,0 +1,5 @@
+/**cop system add,save error style**/
+.error {
+	font-style: normal;
+	font-weight: bold;
+}

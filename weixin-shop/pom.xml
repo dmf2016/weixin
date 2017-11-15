@@ -38,26 +38,17 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- JSP相关 -->
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
-			<version>${jstl.version}</version>
 		</dependency>
 		<!-- Servlet -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
-			<version>${servlet-api.version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jsp-api</artifactId>
-			<version>${jsp-api.version}</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
@@ -69,7 +60,6 @@
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.2</version>
 				<configuration>
 					<port>8080</port>
 					<path>/</path>
@@ -77,7 +67,6 @@
 					<url>http://localhost:8080/manager/text</url>
 					<username>tomcat</username>
 					<password>tomcat</password>
-					<finalName>my-proxy</finalName>
 					<server>tomcat7</server>
 				</configuration>
 			</plugin>
